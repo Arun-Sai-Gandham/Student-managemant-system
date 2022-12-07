@@ -1,0 +1,237 @@
+.alphabets-outer{
+    display: flex;
+    // justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+    .alphs-item{
+        margin: 3px;
+    }
+    .alphs-item p{
+        font-size: 12px;
+        padding: 3px 10px;
+        background-color: bisque;
+        cursor: pointer;
+    }
+}
+.input-filter{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 30px 30px 30px;
+    .search-input{
+        span{
+            font-size: 14px;
+        }
+        .input-search-bar{
+            border: 2px solid skyblue;
+            border-radius: 8px;
+            padding: 3px 10px;
+            width: 200px;
+        }
+    }
+    .search-by{
+        span{
+            font-size: 14px;
+        }
+        select{
+            border: 2px solid skyblue;
+            border-radius: 8px;
+            padding: 3px 10px;
+            width: 200px;
+        }
+        button{
+            padding: 5px 10px;
+            border-radius: 50px;
+            margin: 0px 20px;
+            border: 2px solid gray;
+            cursor: pointer;
+        }
+    }
+}
+.no-data-items{
+    text-align: center;
+    img{
+        width: 400px;
+    }
+}
+.data-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    min-height: 100vh;
+    .student-item{
+        width: 25%;
+        a {
+        text-decoration: none;
+        color: black;
+        }
+    }
+    .student-item-inner{
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        box-shadow: 3px 3px 5px lightblue;
+        .student-image img{
+            width: 60px;
+            height: 70px;
+            padding: 0px 20px;
+        }
+        .student-details p{
+            font-size: 12px;
+        }
+        :hover
+        {
+            scale: 0.97;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .alphabets-outer{
+        margin: 15px;
+        .alphs-item{
+            margin: 2px;
+        }
+        .alphs-item p{
+            font-size: 11px;
+            padding: 3px 8px;
+        }
+    }
+    .input-filter{
+        margin:0px 20px 20px 20px;
+        .search-input{
+            span{
+                font-size: 12px;
+            }
+            .input-search-bar{
+                padding: 3px 7px;
+                width: 100px;
+            }
+        }
+        .search-by{
+            span{
+                font-size: 12px;
+            }
+            select{
+                padding: 3px 8px;
+                width: 100px;
+            }
+            button{
+                padding: 4px 8px;
+                margin: 0px 15px;
+            }
+        }
+    }
+    .data-items{
+        .student-item{
+            width: 33.3333%;
+        }
+        .student-item-inner{
+            margin: 8px;
+            .student-image img{
+                width: 50px;
+                padding: 0px 10px;
+            }
+            .student-details p{
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .data-items{
+        .student-item{
+            width: 50%;
+        }
+    }
+    
+.input-filter{
+    flex-direction: column;
+    margin:0px 10px 10px 10px;
+    .search-input{
+        span{
+            font-size: 10px;
+        }
+        .input-search-bar{
+            font-size: 10px;
+            border: 2px solid skyblue;
+            border-radius: 8px;
+            padding: 2px 5px;
+            width: 100%;
+        }
+    }
+    .search-by{
+        span{
+            font-size: 10px;
+        }
+        select{
+            font-size: 10px;
+            padding: 2px 5px;
+            width: 40%;
+        }
+        button{
+            font-size: 10px;
+            padding: 3px 8px;
+            margin: 0px 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .alphabets-outer{
+        .alphs-item{
+            margin: 1px;
+        }
+        .alphs-item p{
+            font-size: 10px;
+            padding: 1px 6px;
+        }
+    }
+    .data-items{
+        .student-item{
+            width: 100%;
+        }
+        .student-item-inner{
+            margin: 6px;
+            .student-image img{
+                width: 40px;
+                padding: 0px 8px;
+            }
+            .student-details p{
+                font-size: 9px;
+            }
+        }
+    }
+    
+.input-filter{
+    flex-direction: column;
+    margin:0px 8px 8px 8px;
+    .search-input{
+        span{
+            font-size: 9px;
+        }
+        .input-search-bar{
+            font-size: 9PX; 
+            padding: 1px 4px;
+            width: 100%;
+        }
+    }
+    .search-by{
+        span{
+            font-size: 9px;
+        }
+        select{
+            font-size: 9PX;
+            padding: 2px 5px;
+            // margin: 0px 0px;
+            width: 100%;
+        }
+        button{
+            font-size: 10px;
+            padding: 3px 8px;
+            margin: 0px 0px;
+            }
+        }
+    }
+}

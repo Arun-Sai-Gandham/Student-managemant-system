@@ -1,0 +1,84 @@
+.view-modal-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(122, 118, 118, 0.337254902);
+  z-index: 999999999;
+}
+.view-modal-outer .modal-outer {
+  width: 100%;
+  min-height: 50vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.view-modal-outer .modal-outer .modal-inner {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  opacity: 1;
+  margin: 50px;
+  max-width: 500px;
+}
+.view-modal-outer .modal-outer .modal-inner .title-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  background-color: aqua;
+  padding: 6px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.view-modal-outer .modal-outer .modal-inner .title-header .title {
+  margin-right: 30%;
+}
+.view-modal-outer .modal-outer .modal-inner .title-header .title h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.view-modal-outer .modal-outer .modal-inner .title-header .close {
+  cursor: pointer;
+  margin: 5px 10px 5px 5px;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer {
+  background-color: white;
+  margin: 20px 20px;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item .fieldOuter {
+  text-align: left;
+  width: 100%;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item .fieldOuter p {
+  font-size: 10px;
+  color: red;
+  width: 100%;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item .fieldOuter img {
+  width: 100px;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item p {
+  width: 50%;
+  text-align: left;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item .input-item {
+  padding: 3px 10px;
+  width: 50%;
+}
+.view-modal-outer .modal-outer .modal-inner .form-outer .form-item button {
+  padding: 5px 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: rgb(234, 109, 109);
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=viewModal.css.map */

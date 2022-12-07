@@ -1,0 +1,48 @@
+.view-student-inner{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    box-shadow: 1px 1px 5px lightblue;
+    padding: 20px;
+    .item-box{
+        width: 50%;
+        .image-container{
+            display: flex;
+            justify-content: center;
+            .back-link a{
+                padding: 5px 10px;
+                background-color: greenyellow;
+                border-radius: 8px;
+                text-decoration: none;
+            }
+            img{
+                margin: 0px auto;
+                width: 200px;
+            }
+
+        }
+        .data-container{
+            p{
+                font-size: 18px;
+            }
+        }
+        .action-buttons{
+            margin: 20px 0px;
+            button{
+                padding: 5px 10px;
+                margin-right: 10px;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+            .edit{
+                background-color: green;
+            }
+            .delet{
+                background-color: red;
+            }
+        }
+        
+    }
+}

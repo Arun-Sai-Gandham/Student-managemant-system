@@ -1,0 +1,44 @@
+.view-student-inner {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  box-shadow: 1px 1px 5px lightblue;
+  padding: 20px;
+}
+.view-student-inner .item-box {
+  width: 50%;
+}
+.view-student-inner .item-box .image-container {
+  display: flex;
+  justify-content: center;
+}
+.view-student-inner .item-box .image-container .back-link a {
+  padding: 5px 10px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.view-student-inner .item-box .image-container img {
+  margin: 0px auto;
+  width: 200px;
+}
+.view-student-inner .item-box .data-container p {
+  font-size: 18px;
+}
+.view-student-inner .item-box .action-buttons {
+  margin: 20px 0px;
+}
+.view-student-inner .item-box .action-buttons button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.view-student-inner .item-box .action-buttons .edit {
+  background-color: green;
+}
+.view-student-inner .item-box .action-buttons .delet {
+  background-color: red;
+}/*# sourceMappingURL=viewStudent.css.map */
